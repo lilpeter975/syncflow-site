@@ -16,7 +16,7 @@ const footerLinks = {
   ],
   "Liên Hệ": [
     { label: "hello@syncflow.vn", href: "mailto:hello@syncflow.vn" },
-    { label: "0909 xxx xxx", href: "tel:0909000000" },
+    { label: "08 39 888 188", href: "tel:0839888188" },
     { label: "TP. Hồ Chí Minh, Việt Nam", href: "#" },
   ],
 };
