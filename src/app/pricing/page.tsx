@@ -3,16 +3,18 @@ import SectionHeading from "@/components/SectionHeading";
 import CTAButton from "@/components/CTAButton";
 
 export const metadata: Metadata = {
-  title: "Bảng Giá Dịch Vụ",
+  title: "Bảng Giá Dịch Vụ — Setup + Duy Trì Hàng Tháng",
   description:
-    "3 gói dịch vụ tự động hoá: Starter từ 5tr/tháng, Growth từ 15tr/tháng, Enterprise từ 40tr/tháng. Phù hợp mọi quy mô doanh nghiệp.",
+    "3 gói dịch vụ tự động hoá: Starter, Growth, Enterprise. Phí setup 1 lần + phí duy trì hàng tháng. Phù hợp mọi quy mô doanh nghiệp.",
 };
 
 const tiers = [
   {
     name: "Starter",
-    price: "5-10",
-    unit: "tr/tháng",
+    setupPrice: "5-10",
+    setupUnit: "tr (1 lần)",
+    monthlyPrice: "3-5",
+    monthlyUnit: "tr/tháng",
     description: "Cho shop nhỏ, 1-3 người vận hành. Bắt đầu tự động hoá những việc cơ bản nhất.",
     features: [
       "1-2 quy trình tự động hoá",
@@ -29,11 +31,14 @@ const tiers = [
       "AI Assistant đa ngôn ngữ",
       "Dedicated account manager",
     ],
+    note: "Chưa bao gồm chi phí API bên thứ 3",
   },
   {
     name: "Growth",
-    price: "15-25",
-    unit: "tr/tháng",
+    setupPrice: "15-25",
+    setupUnit: "tr (1 lần)",
+    monthlyPrice: "5-10",
+    monthlyUnit: "tr/tháng",
     description: "Cho doanh nghiệp đang scale, 3-10 người. Tự động hoá đa kênh, đa quy trình.",
     popular: true,
     features: [
@@ -52,12 +57,13 @@ const tiers = [
       "Tích hợp ERP/CRM",
       "Dedicated account manager",
     ],
+    note: "Chưa bao gồm chi phí API bên thứ 3",
   },
   {
     name: "Enterprise",
-    price: "40-60",
-    unit: "tr/tháng",
-    description: "Cho SME 10-50 nhân viên. Giải pháp toàn diện, tuỳ chỉnh theo nhu cầu.",
+    setupPrice: null,
+    monthlyPrice: null,
+    description: "Cho SME 10-50 nhân viên. Giải pháp toàn diện, tuỳ chỉnh hoàn toàn theo nhu cầu.",
     features: [
       "Unlimited quy trình tự động hoá",
       "Custom dashboard + KPI tracking",
@@ -77,8 +83,16 @@ const tiers = [
 
 const faqs = [
   {
-    q: "Có phải trả phí setup không?",
-    a: "Không. Phí setup đã bao gồm trong gói dịch vụ tháng đầu tiên. Bạn chỉ trả phí hàng tháng, không có phí ẩn.",
+    q: "Phí setup là gì?",
+    a: "Phí setup là chi phí 1 lần để cài đặt, cấu hình và tích hợp hệ thống tự động hoá ban đầu cho doanh nghiệp của bạn. Bao gồm phân tích quy trình, thiết kế workflow, cài đặt và training.",
+  },
+  {
+    q: "Phí duy trì hàng tháng bao gồm gì?",
+    a: "Bao gồm: bảo trì hệ thống, cập nhật workflow, sửa lỗi, hỗ trợ kỹ thuật, và tối ưu hiệu suất. Chưa bao gồm chi phí API bên thứ 3 (nếu có).",
+  },
+  {
+    q: "Chi phí API bên thứ 3 là gì?",
+    a: "Một số tính năng sử dụng dịch vụ bên ngoài như AI (OpenAI, Anthropic), SMS, hoặc email marketing. Chi phí này phụ thuộc vào mức sử dụng thực tế của bạn, thường từ 0-2tr/tháng cho gói Starter.",
   },
   {
     q: "Có thể nâng cấp hoặc hạ cấp gói không?",
@@ -90,7 +104,7 @@ const faqs = [
   },
   {
     q: "Có chính sách hoàn tiền không?",
-    a: "Có. Hoàn tiền 100% trong 30 ngày đầu nếu bạn không hài lòng với dịch vụ.",
+    a: "Có. Hoàn tiền 100% phí duy trì trong 30 ngày đầu nếu bạn không hài lòng với dịch vụ.",
   },
 ];
 
@@ -101,8 +115,8 @@ export default function PricingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             tag="Bảng giá"
-            title="Gói Dịch Vụ Minh Bạch, Không Phí Ẩn"
-            description="Chọn gói phù hợp với quy mô và nhu cầu của bạn. Mọi gói đều bao gồm setup, training và hỗ trợ kỹ thuật."
+            title="Setup 1 Lần + Duy Trì Hàng Tháng"
+            description="Phí setup để cài đặt ban đầu. Phí duy trì hàng tháng để bảo trì, hỗ trợ và cập nhật liên tục."
             light
           />
         </div>
@@ -127,17 +141,38 @@ export default function PricingPage() {
                 )}
                 <h3 className="text-2xl font-bold text-gray-900">{tier.name}</h3>
                 <p className="text-sm text-gray-500 mt-2">{tier.description}</p>
-                <div className="mt-6 mb-8">
-                  <span className="text-5xl font-bold text-gray-900">{tier.price}</span>
-                  <span className="text-gray-500 ml-2">{tier.unit}</span>
-                </div>
+
+                {tier.setupPrice ? (
+                  <div className="mt-6 mb-2">
+                    <p className="text-xs text-gray-400 uppercase font-semibold mb-1">Phí Setup (1 lần)</p>
+                    <span className="text-4xl font-bold text-gray-900">{tier.setupPrice}</span>
+                    <span className="text-gray-500 ml-1 text-sm">{tier.setupUnit}</span>
+                  </div>
+                ) : (
+                  <div className="mt-6 mb-2">
+                    <p className="text-xs text-gray-400 uppercase font-semibold mb-1">Phí Setup + Duy Trì</p>
+                    <span className="text-3xl font-bold text-gray-900">Liên hệ</span>
+                  </div>
+                )}
+
+                {tier.monthlyPrice && (
+                  <div className="mb-6">
+                    <p className="text-xs text-gray-400 uppercase font-semibold mb-1 mt-4">Duy trì hàng tháng</p>
+                    <span className="text-2xl font-bold text-primary">{tier.monthlyPrice}</span>
+                    <span className="text-gray-500 ml-1 text-sm">{tier.monthlyUnit}</span>
+                  </div>
+                )}
+
+                {tier.note && (
+                  <p className="text-xs text-gray-400 italic mb-4">* {tier.note}</p>
+                )}
 
                 <CTAButton
                   href="/contact"
                   variant={tier.popular ? "primary" : "outline"}
                   size="md"
                 >
-                  Bắt Đầu Ngay
+                  {tier.setupPrice ? "Bắt Đầu Ngay" : "Liên Hệ Tư Vấn"}
                 </CTAButton>
 
                 <div className="mt-8 pt-8 border-t border-gray-200">
