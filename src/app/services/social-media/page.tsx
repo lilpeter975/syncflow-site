@@ -3,41 +3,41 @@ import SectionHeading from "@/components/SectionHeading";
 import CTAButton from "@/components/CTAButton";
 
 export const metadata: Metadata = {
-  title: "Social Media Automation — Auto-Post Da Kenh",
+  title: "Social Media Automation — Auto-Post Đa Kênh",
   description:
-    "Tu dong dang bai Facebook, Instagram, X, Telegram. AI tao caption, len lich dang bai, theo doi hieu qua tu dong.",
+    "Tự động đăng bài Facebook, Instagram, X, Telegram. AI tạo caption, lên lịch đăng bài, theo dõi hiệu quả tự động.",
 };
 
 const features = [
   {
-    title: "Auto-Post Da Kenh",
+    title: "Auto-Post Đa Kênh",
     description:
-      "Viet mot bai, tu dong dang len Facebook, Instagram, X va Telegram cung luc. Toi uu format cho tung nen tang — khong can copy-paste.",
+      "Viết một bài, tự động đăng lên Facebook, Instagram, X và Telegram cùng lúc. Tối ưu format cho từng nền tảng — không cần copy-paste.",
   },
   {
-    title: "AI Tao Caption Va Hashtag",
+    title: "AI Tạo Caption Và Hashtag",
     description:
-      "AI hieu san pham cua ban, tu tao caption hap dan va chon hashtag trending. Moi bai viet deu duoc toi uu de tang reach va engagement.",
+      "AI hiểu sản phẩm của bạn, tự tạo caption hấp dẫn và chọn hashtag trending. Mỗi bài viết đều được tối ưu để tăng reach và engagement.",
   },
   {
-    title: "Len Lich Dang Bai Thong Minh",
+    title: "Lên Lịch Đăng Bài Thông Minh",
     description:
-      "He thong phan tich data de xac dinh khung gio vang cua tung kenh. Tu dong dang bai vao luc nhieu nguoi online nhat.",
+      "Hệ thống phân tích data để xác định khung giờ vàng của từng kênh. Tự động đăng bài vào lúc nhiều người online nhất.",
   },
   {
-    title: "Bao Cao Hieu Qua",
+    title: "Báo Cáo Hiệu Quả",
     description:
-      "Dashboard theo doi reach, engagement, click cho tung bai viet va tung kenh. Biet bai nao hieu qua, bai nao can cai thien.",
+      "Dashboard theo dõi reach, engagement, click cho từng bài viết và từng kênh. Biết bài nào hiệu quả, bài nào cần cải thiện.",
   },
   {
-    title: "A/B Test Tieu De",
+    title: "A/B Test Tiêu Đề",
     description:
-      "Tu dong thu nhieu phien ban tieu de va caption. Sau 24h, he thong chon ban thang cuoc va push cho nhieu nguoi hon.",
+      "Tự động thử nhiều phiên bản tiêu đề và caption. Sau 24h, hệ thống chọn bản thắng cuộc và push cho nhiều người hơn.",
   },
   {
-    title: "Repurpose Noi Dung",
+    title: "Repurpose Nội Dung",
     description:
-      "Mot bai blog dai tu dong tro thanh 5 bai social, 3 story, 1 thread X. AI chia nho va dinh dang lai cho tung nen tang.",
+      "Một bài blog dài tự động trở thành 5 bài social, 3 story, 1 thread X. AI chia nhỏ và định dạng lại cho từng nền tảng.",
   },
 ];
 
@@ -55,13 +55,13 @@ export default function SocialMediaPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             tag="Social Media Automation"
-            title="Auto-Post Da Kenh Bang AI"
-            description="Mot noi dung, tu dong xuat ban tren tat ca kenh social media. AI tao caption, chon hashtag, len lich — ban chi can duyet va dang."
+            title="Auto-Post Đa Kênh Bằng AI"
+            description="Một nội dung, tự động xuất bản trên tất cả kênh social media. AI tạo caption, chọn hashtag, lên lịch — bạn chỉ cần duyệt và đăng."
             light
           />
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
             <CTAButton href="/contact" variant="primary" size="lg">
-              Dang Ky Demo
+              Đăng Ký Demo
             </CTAButton>
             <CTAButton href="/showcases/wildlyplay" variant="outline" size="lg">
               Xem Case Study
@@ -73,8 +73,8 @@ export default function SocialMediaPage() {
       <section className="py-20 sm:py-28 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            tag="Tinh nang"
-            title="Tu Dong Hoa Content Marketing Toan Dien"
+            tag="Tính năng"
+            title="Tự Động Hoá Content Marketing Toàn Diện"
           />
           <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {features.map((feature) => (
@@ -97,8 +97,8 @@ export default function SocialMediaPage() {
       <section className="py-20 sm:py-28 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            tag="Nen tang ho tro"
-            title="Ho Tro Tat Ca Kenh Social Pho Bien"
+            tag="Nền tảng hỗ trợ"
+            title="Hỗ Trợ Tất Cả Kênh Social Phổ Biến"
           />
           <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {platforms.map((platform) => (
@@ -114,13 +114,13 @@ export default function SocialMediaPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Ngung mat thoi gian copy-paste giua cac kenh
+            Ngừng mất thời gian copy-paste giữa các kênh
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            De AI lam phan nham chan. Ban tap trung vao y tuong va chien luoc noi dung.
+            Để AI làm phần nhàm chán. Bạn tập trung vào ý tưởng và chiến lược nội dung.
           </p>
           <CTAButton href="/contact" variant="primary" size="lg">
-            Bat Dau Ngay
+            Bắt Đầu Ngay
           </CTAButton>
         </div>
       </section>

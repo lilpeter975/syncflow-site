@@ -3,38 +3,38 @@ import Link from "next/link";
 import SectionHeading from "@/components/SectionHeading";
 
 export const metadata: Metadata = {
-  title: "Blog — Kien Thuc AI Automation",
+  title: "Blog — Kiến Thức AI Automation",
   description:
-    "Bai viet ve AI automation, tu dong hoa doanh nghiep, SEO, social media marketing cho doanh nghiep nho Viet Nam.",
+    "Bài viết về AI automation, tự động hoá doanh nghiệp, SEO, social media marketing cho doanh nghiệp nhỏ Việt Nam.",
 };
 
 const posts = [
   {
     slug: "ai-tu-dong-hoa-cho-doanh-nghiep-nho",
-    title: "AI Tu Dong Hoa Cho Doanh Nghiep Nho Viet Nam — Huong Dan Tu A-Z 2026",
+    title: "AI Tự Động Hoá Cho Doanh Nghiệp Nhỏ Việt Nam — Hướng Dẫn Từ A-Z 2026",
     excerpt:
-      "Huong dan day du ve cach ap dung AI tu dong hoa cho doanh nghiep nho tai Viet Nam. Tu khau niem co ban den trien khai thuc te, voi vi du cu the va chi phi tham khao.",
+      "Hướng dẫn đầy đủ về cách áp dụng AI tự động hoá cho doanh nghiệp nhỏ tại Việt Nam. Từ khái niệm cơ bản đến triển khai thực tế, với ví dụ cụ thể và chi phí tham khảo.",
     date: "2026-06-01",
-    readTime: "12 phut doc",
-    category: "Huong Dan",
+    readTime: "12 phút đọc",
+    category: "Hướng Dẫn",
   },
   {
     slug: "ai-tu-dong-hoa-cho-doanh-nghiep-nho",
-    title: "5 Quy Trinh Dau Tien Nen Tu Dong Hoa Trong Doanh Nghiep Nho",
+    title: "5 Quy Trình Đầu Tiên Nên Tự Động Hoá Trong Doanh Nghiệp Nhỏ",
     excerpt:
-      "Khong can tu dong hoa tat ca cung mot luc. Bat dau tu 5 quy trinh nay de thay ket qua nhanh nhat voi chi phi thap nhat.",
+      "Không cần tự động hoá tất cả cùng một lúc. Bắt đầu từ 5 quy trình này để thấy kết quả nhanh nhất với chi phí thấp nhất.",
     date: "2026-05-20",
-    readTime: "8 phut doc",
-    category: "Chien Luoc",
+    readTime: "8 phút đọc",
+    category: "Chiến Lược",
   },
   {
     slug: "ai-tu-dong-hoa-cho-doanh-nghiep-nho",
-    title: "So Sanh n8n vs Zapier vs Make: Cong Cu Automation Nao Phu Hop?",
+    title: "So Sánh n8n vs Zapier vs Make: Công Cụ Automation Nào Phù Hợp?",
     excerpt:
-      "Phan tich chi tiet 3 nen tang automation pho bien nhat. Uu nhuoc diem, chi phi va truong hop su dung tot nhat cho doanh nghiep Viet.",
+      "Phân tích chi tiết 3 nền tảng automation phổ biến nhất. Ưu nhược điểm, chi phí và trường hợp sử dụng tốt nhất cho doanh nghiệp Việt.",
     date: "2026-05-10",
-    readTime: "10 phut doc",
-    category: "Cong Cu",
+    readTime: "10 phút đọc",
+    category: "Công Cụ",
   },
 ];
 
@@ -45,8 +45,8 @@ export default function BlogPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             tag="Blog"
-            title="Kien Thuc AI Automation"
-            description="Chia se kien thuc, kinh nghiem va huong dan thuc te ve AI automation cho doanh nghiep nho Viet Nam."
+            title="Kiến Thức AI Automation"
+            description="Chia sẻ kiến thức, kinh nghiệm và hướng dẫn thực tế về AI automation cho doanh nghiệp nhỏ Việt Nam."
             light
           />
         </div>

@@ -5,10 +5,10 @@ export default function NotFound() {
     <section className="flex flex-col items-center justify-center min-h-[60vh] px-4 text-center">
       <h1 className="text-6xl font-bold text-gray-900 mb-4">404</h1>
       <p className="text-xl text-gray-600 mb-8">
-        Trang ban tim khong ton tai hoac da bi di chuyen.
+        Trang bạn tìm không tồn tại hoặc đã bị di chuyển.
       </p>
       <CTAButton href="/" variant="primary">
-        Quay Ve Trang Chu
+        Quay Về Trang Chủ
       </CTAButton>
     </section>
   );

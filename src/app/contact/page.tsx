@@ -15,7 +15,7 @@ const contactInfo = [
     ),
   },
   {
-    label: "Dien thoai",
+    label: "Điện thoại",
     value: "0909 xxx xxx",
     href: "tel:0909000000",
     icon: (
@@ -25,8 +25,8 @@ const contactInfo = [
     ),
   },
   {
-    label: "Dia chi",
-    value: "TP. Ho Chi Minh, Viet Nam",
+    label: "Địa chỉ",
+    value: "TP. Hồ Chí Minh, Việt Nam",
     href: "#",
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -50,9 +50,9 @@ export default function ContactPage() {
       <section className="bg-dark-bg py-20 sm:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            tag="Lien he"
-            title="Dang Ky Demo Mien Phi"
-            description="Dien form ben duoi hoac lien he truc tiep. Chung toi se phan hoi trong vong 24 gio lam viec."
+            tag="Liên hệ"
+            title="Đăng Ký Demo Miễn Phí"
+            description="Điền form bên dưới hoặc liên hệ trực tiếp. Chúng tôi sẽ phản hồi trong vòng 24 giờ làm việc."
             light
           />
         </div>
@@ -68,11 +68,11 @@ export default function ContactPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   <h3 className="text-2xl font-bold text-green-800 mb-2">
-                    Cam on ban da lien he!
+                    Cảm ơn bạn đã liên hệ!
                   </h3>
                   <p className="text-green-700">
-                    Chung toi se phan hoi trong vong 24 gio lam viec. Trong khi cho doi,
-                    ban co the xem qua cac dich vu cua chung toi.
+                    Chúng tôi sẽ phản hồi trong vòng 24 giờ làm việc. Trong khi chờ đợi,
+                    bạn có thể xem qua các dịch vụ của chúng tôi.
                   </p>
                 </div>
               ) : (
@@ -80,7 +80,7 @@ export default function ContactPage() {
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <div>
                       <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                        Ho va ten *
+                        Họ và tên *
                       </label>
                       <input
                         type="text"
@@ -88,7 +88,7 @@ export default function ContactPage() {
                         name="name"
                         required
                         className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all"
-                        placeholder="Nguyen Van A"
+                        placeholder="Nguyễn Văn A"
                       />
                     </div>
                     <div>
@@ -109,7 +109,7 @@ export default function ContactPage() {
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <div>
                       <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
-                        So dien thoai
+                        Số điện thoại
                       </label>
                       <input
                         type="tel"
@@ -121,21 +121,21 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-2">
-                        Ten cong ty
+                        Tên công ty
                       </label>
                       <input
                         type="text"
                         id="company"
                         name="company"
                         className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all"
-                        placeholder="Ten cong ty cua ban"
+                        placeholder="Tên công ty của bạn"
                       />
                     </div>
                   </div>
 
                   <div>
                     <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                      Ban can tu dong hoa gi? *
+                      Bạn cần tự động hoá gì? *
                     </label>
                     <textarea
                       id="message"
@@ -143,7 +143,7 @@ export default function ContactPage() {
                       required
                       rows={5}
                       className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all resize-none"
-                      placeholder="Mo ta ngan ve doanh nghiep va quy trinh ban muon tu dong hoa..."
+                      placeholder="Mô tả ngắn về doanh nghiệp và quy trình bạn muốn tự động hoá..."
                     />
                   </div>
 
@@ -151,7 +151,7 @@ export default function ContactPage() {
                     type="submit"
                     className="w-full sm:w-auto px-8 py-3 bg-primary hover:bg-primary-dark text-white font-semibold rounded-lg transition-colors shadow-lg shadow-primary/25"
                   >
-                    Gui Yeu Cau Tu Van
+                    Gửi Yêu Cầu Tư Vấn
                   </button>
                 </form>
               )}
@@ -159,7 +159,7 @@ export default function ContactPage() {
 
             <div className="lg:col-span-2">
               <h3 className="text-xl font-bold text-gray-900 mb-6">
-                Thong tin lien he
+                Thông tin liên hệ
               </h3>
               <div className="space-y-6">
                 {contactInfo.map((info) => (
@@ -180,31 +180,31 @@ export default function ContactPage() {
               </div>
 
               <div className="mt-10 p-6 rounded-2xl bg-gray-50 border border-gray-200">
-                <h4 className="font-bold text-gray-900 mb-3">Tu van mien phi bao gom:</h4>
+                <h4 className="font-bold text-gray-900 mb-3">Tư vấn miễn phí bao gồm:</h4>
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li className="flex items-start gap-2">
                     <svg className="w-4 h-4 text-green-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    Phan tich quy trinh hien tai cua ban
+                    Phân tích quy trình hiện tại của bạn
                   </li>
                   <li className="flex items-start gap-2">
                     <svg className="w-4 h-4 text-green-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    De xuat giai phap automation cu the
+                    Đề xuất giải pháp automation cụ thể
                   </li>
                   <li className="flex items-start gap-2">
                     <svg className="w-4 h-4 text-green-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    Uoc tinh chi phi va thoi gian trien khai
+                    Ước tính chi phí và thời gian triển khai
                   </li>
                   <li className="flex items-start gap-2">
                     <svg className="w-4 h-4 text-green-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    Demo san pham thuc te
+                    Demo sản phẩm thực tế
                   </li>
                 </ul>
               </div>

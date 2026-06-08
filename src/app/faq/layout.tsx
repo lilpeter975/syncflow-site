@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "FAQ — Cau Hoi Thuong Gap",
+  title: "FAQ — Câu Hỏi Thường Gặp",
   description:
-    "Tra loi cac cau hoi thuong gap ve dich vu AI automation cua SyncFlow: gia ca, thoi gian setup, bao mat, tich hop.",
+    "Trả lời các câu hỏi thường gặp về dịch vụ AI automation của SyncFlow: giá cả, thời gian setup, bảo mật, tích hợp.",
 };
 
 export default function FAQLayout({

@@ -28,7 +28,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div>
             <Image
-              src="/logos/logo-dark.png"
+              src="/logos/logo-light.png"
               alt="SyncFlow"
               width={120}
               height={32}

@@ -3,16 +3,16 @@ import SectionHeading from "@/components/SectionHeading";
 import CTAButton from "@/components/CTAButton";
 
 export const metadata: Metadata = {
-  title: "Snapshop.vn — E-Commerce Automation Case Study",
+  title: "ShopX — E-Commerce Automation Case Study",
   description:
-    "Shop wellness TPHCM tu dong hoa SEO va bao cao doanh thu. 500+ keywords tracked, 19 SEO blogs, weekly auto-reports.",
+    "Shop wellness TPHCM tự động hoá SEO và báo cáo doanh thu. 500+ keywords tracked, 19 SEO blogs, weekly auto-reports.",
 };
 
 const stats = [
-  { value: "500+", label: "Tu khoa Google duoc theo doi" },
-  { value: "19", label: "Bai SEO blog tu dong" },
-  { value: "40%", label: "Tang traffic organic" },
-  { value: "15h", label: "Tiet kiem moi tuan" },
+  { value: "500+", label: "Từ khoá Google được theo dõi" },
+  { value: "19", label: "Bài SEO blog tự động" },
+  { value: "40%", label: "Tăng traffic organic" },
+  { value: "15h", label: "Tiết kiệm mỗi tuần" },
 ];
 
 export default function SnapshopShowcase() {
@@ -25,12 +25,12 @@ export default function SnapshopShowcase() {
               E-Commerce
             </span>
             <span className="text-xs font-semibold text-gray-400 bg-gray-800 px-3 py-1 rounded-full">
-              TP. Ho Chi Minh
+              TP. Hồ Chí Minh
             </span>
           </div>
           <SectionHeading
-            title="Snapshop.vn"
-            description="Shop wellness/sextoy tai TPHCM tu dong hoa SEO, bao cao doanh thu va theo doi tu khoa. Tu van hanh thu cong chuyen sang he thong AI thong minh."
+            title="ShopX"
+            description="Shop wellness tại TPHCM tự động hoá SEO, báo cáo doanh thu và theo dõi từ khoá. Từ vận hành thủ công chuyển sang hệ thống AI thông minh."
             light
           />
           <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto">
@@ -46,47 +46,47 @@ export default function SnapshopShowcase() {
 
       <section className="py-20 sm:py-28 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Thach thuc</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Thách thức</h2>
           <p className="text-gray-600 text-lg leading-relaxed mb-8">
-            Snapshop.vn la shop ban san pham wellness va sextoy tai TP.HCM voi hon 1.100 san pham.
-            Team marketing 2 nguoi phai quan ly dong thoi: SEO blog, bao cao doanh thu,
-            theo doi tu khoa, dang bai social media. Moi tuan mat 15-20 gio cho cong viec thu cong,
-            khong con thoi gian cho chien luoc tang truong.
+            ShopX là shop bán sản phẩm wellness tại TP.HCM với hơn 1.100 sản phẩm.
+            Team marketing 2 người phải quản lý đồng thời: SEO blog, báo cáo doanh thu,
+            theo dõi từ khoá, đăng bài social media. Mỗi tuần mất 15-20 giờ cho công việc thủ công,
+            không còn thời gian cho chiến lược tăng trưởng.
           </p>
 
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Giai phap</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Giải pháp</h2>
           <div className="space-y-4 mb-8">
             <div className="p-6 rounded-xl bg-gray-50 border border-gray-200">
-              <h3 className="font-bold text-gray-900 mb-2">SEO Blog Tu Dong</h3>
+              <h3 className="font-bold text-gray-900 mb-2">SEO Blog Tự Động</h3>
               <p className="text-gray-600 text-sm">
-                AI phan tich keyword gap, tu viet bai SEO 3.000+ tu voi cau truc H1-H6 chuan,
-                schema markup, meta tags toi uu. Da tao 19 bai blog trong 2 thang dau.
+                AI phân tích keyword gap, tự viết bài SEO 3.000+ từ với cấu trúc H1-H6 chuẩn,
+                schema markup, meta tags tối ưu. Đã tạo 19 bài blog trong 2 tháng đầu.
               </p>
             </div>
             <div className="p-6 rounded-xl bg-gray-50 border border-gray-200">
-              <h3 className="font-bold text-gray-900 mb-2">Theo Doi 500+ Tu Khoa</h3>
+              <h3 className="font-bold text-gray-900 mb-2">Theo Dõi 500+ Từ Khoá</h3>
               <p className="text-gray-600 text-sm">
-                He thong tracking thu hang Google cho 500+ tu khoa moi ngay. Bao cao xu huong,
-                phat hien co hoi moi, goi y noi dung can uu tien.
+                Hệ thống tracking thứ hạng Google cho 500+ từ khoá mỗi ngày. Báo cáo xu hướng,
+                phát hiện cơ hội mới, gợi ý nội dung cần ưu tiên.
               </p>
             </div>
             <div className="p-6 rounded-xl bg-gray-50 border border-gray-200">
-              <h3 className="font-bold text-gray-900 mb-2">Bao Cao Doanh Thu Tu Dong</h3>
+              <h3 className="font-bold text-gray-900 mb-2">Báo Cáo Doanh Thu Tự Động</h3>
               <p className="text-gray-600 text-sm">
-                Moi thu Hai, bao cao doanh thu tuan truoc tu dong gui vao Telegram group.
-                Bao gom: doanh thu, don hang, san pham ban chay, so sanh voi tuan truoc.
+                Mỗi thứ Hai, báo cáo doanh thu tuần trước tự động gửi vào Telegram group.
+                Bao gồm: doanh thu, đơn hàng, sản phẩm bán chạy, so sánh với tuần trước.
               </p>
             </div>
           </div>
 
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Ket qua</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Kết quả</h2>
           <ul className="space-y-3 mb-12">
             {[
-              "Traffic organic tang 40% trong 2 thang dau",
-              "19 bai SEO blog duoc tao va dang tu dong",
-              "500+ tu khoa duoc theo doi va phan tich hang ngay",
-              "Bao cao doanh thu tu dong moi tuan, khong can lam thu cong",
-              "Team marketing tiet kiem 15 gio/tuan, tap trung vao chien luoc",
+              "Traffic organic tăng 40% trong 2 tháng đầu",
+              "19 bài SEO blog được tạo và đăng tự động",
+              "500+ từ khoá được theo dõi và phân tích hàng ngày",
+              "Báo cáo doanh thu tự động mỗi tuần, không cần làm thủ công",
+              "Team marketing tiết kiệm 15 giờ/tuần, tập trung vào chiến lược",
             ].map((result) => (
               <li key={result} className="flex items-start gap-3 text-gray-700">
                 <svg className="w-5 h-5 text-green-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -99,7 +99,7 @@ export default function SnapshopShowcase() {
 
           <div className="text-center">
             <CTAButton href="/contact" variant="primary" size="lg">
-              Ban Muon Ket Qua Tuong Tu?
+              Bạn Muốn Kết Quả Tương Tự?
             </CTAButton>
           </div>
         </div>

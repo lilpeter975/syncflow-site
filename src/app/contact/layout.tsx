@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Lien He — Dang Ky Demo Mien Phi",
+  title: "Liên Hệ — Đăng Ký Demo Miễn Phí",
   description:
-    "Lien he SyncFlow de dang ky tu van va demo mien phi. Phan hoi trong 24 gio lam viec.",
+    "Liên hệ SyncFlow để đăng ký tư vấn và demo miễn phí. Phản hồi trong 24 giờ làm việc.",
 };
 
 export default function ContactLayout({

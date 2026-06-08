@@ -3,54 +3,54 @@ import Link from "next/link";
 import SectionHeading from "@/components/SectionHeading";
 
 export const metadata: Metadata = {
-  title: "Showcases — Khach Hang Thanh Cong",
+  title: "Showcases — Khách Hàng Thành Công",
   description:
-    "Nhung doanh nghiep thuc te da su dung SyncFlow de tu dong hoa va tang truong. E-commerce, media, gaming operations.",
+    "Những doanh nghiệp thực tế đã sử dụng SyncFlow để tự động hoá và tăng trưởng. E-commerce, media, gaming operations.",
 };
 
 const showcases = [
   {
     href: "/showcases/snapshop",
-    title: "Snapshop.vn",
+    title: "ShopX",
     industry: "E-Commerce",
-    location: "TP. Ho Chi Minh",
+    location: "TP. Hồ Chí Minh",
     description:
-      "Shop wellness/sextoy tu dong hoa SEO va bao cao doanh thu. Tu tracking thu cong chuyen sang he thong AI theo doi 500 tu khoa va tao 19 bai blog SEO tu dong.",
+      "Shop wellness tự động hoá SEO và báo cáo doanh thu. Từ tracking thủ công chuyển sang hệ thống AI theo dõi 500 từ khoá và tạo 19 bài blog SEO tự động.",
     results: [
-      "500+ tu khoa Google duoc theo doi hang ngay",
-      "19 bai SEO blog tu dong, tang 40% traffic organic",
-      "Bao cao doanh thu tu dong moi tuan qua Telegram",
-      "Tiet kiem 15 gio/tuan cho team marketing",
+      "500+ từ khoá Google được theo dõi hàng ngày",
+      "19 bài SEO blog tự động, tăng 40% traffic organic",
+      "Báo cáo doanh thu tự động mỗi tuần qua Telegram",
+      "Tiết kiệm 15 giờ/tuần cho team marketing",
     ],
     services: ["E-Commerce Automation", "SEO Blog", "Reporting"],
   },
   {
     href: "/showcases/wildlyplay",
-    title: "WildlyPlay",
+    title: "MediaHub",
     industry: "Media & Content",
     location: "Online",
     description:
-      "Kenh media World Cup 2026 tu dong dang bai da kenh, da ngon ngu. Workflow n8n phan phoi noi dung len Telegram, Facebook va X trong nhieu ngon ngu.",
+      "Kênh media World Cup 2026 tự động đăng bài đa kênh, đa ngôn ngữ. Workflow n8n phân phối nội dung lên Telegram, Facebook và X trong nhiều ngôn ngữ.",
     results: [
-      "Auto-post len 3 kenh: Telegram, Facebook, X",
-      "Tu dong dich sang 3 ngon ngu (Viet, Anh, Indo)",
-      "Workflow n8n xu ly 50+ bai/ngay",
-      "0 nhan su content — 100% tu dong",
+      "Auto-post lên 3 kênh: Telegram, Facebook, X",
+      "Tự động dịch sang 3 ngôn ngữ (Việt, Anh, Indo)",
+      "Workflow n8n xử lý 50+ bài/ngày",
+      "0 nhân sự content — 100% tự động",
     ],
     services: ["Social Media Automation", "AI Translation", "n8n Workflow"],
   },
   {
     href: "/showcases/koban",
-    title: "Koban Gaming",
+    title: "GameStudio",
     industry: "Gaming Operations",
-    location: "TP. Ho Chi Minh",
+    location: "TP. Hồ Chí Minh",
     description:
-      "Cong ty game tu dong hoa van hanh noi bo: ghi chu meeting, theo doi Jira, quan ly cau hinh game. Team operations lam viec hieu qua hon 3 gio moi ngay.",
+      "Công ty game tự động hoá vận hành nội bộ: ghi chú meeting, theo dõi Jira, quản lý cấu hình game. Team operations làm việc hiệu quả hơn 3 giờ mỗi ngày.",
     results: [
-      "Meeting notes tu dong sau moi cuoc hop",
-      "Jira task tu dong tao va theo doi",
-      "Quan ly cau hinh 40+ game tu dong",
-      "Tiet kiem 3 gio/ngay cho team operations",
+      "Meeting notes tự động sau mỗi cuộc họp",
+      "Jira task tự động tạo và theo dõi",
+      "Quản lý cấu hình 40+ game tự động",
+      "Tiết kiệm 3 giờ/ngày cho team operations",
     ],
     services: ["Operations Automation", "Jira Integration", "Config Management"],
   },
@@ -63,8 +63,8 @@ export default function ShowcasesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             tag="Showcases"
-            title="Khach Hang Thanh Cong Voi SyncFlow"
-            description="Nhung doanh nghiep thuc te tai Viet Nam da tiet kiem thoi gian, giam chi phi va tang truong nho AI automation."
+            title="Khách Hàng Thành Công Với SyncFlow"
+            description="Những doanh nghiệp thực tế tại Việt Nam đã tiết kiệm thời gian, giảm chi phí và tăng trưởng nhờ AI automation."
             light
           />
         </div>

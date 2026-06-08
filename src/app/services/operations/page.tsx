@@ -3,41 +3,41 @@ import SectionHeading from "@/components/SectionHeading";
 import CTAButton from "@/components/CTAButton";
 
 export const metadata: Metadata = {
-  title: "Operations Automation — Tu Dong Hoa Van Hanh",
+  title: "Operations Automation — Tự Động Hoá Vận Hành",
   description:
-    "Tu dong ghi chu meeting, quan ly Jira task, bao cao tien do hang ngay. Giup team van hanh hieu qua hon 3 gio moi ngay.",
+    "Tự động ghi chú meeting, quản lý Jira task, báo cáo tiến độ hàng ngày. Giúp team vận hành hiệu quả hơn 3 giờ mỗi ngày.",
 };
 
 const features = [
   {
-    title: "Tu Dong Ghi Chu Meeting",
+    title: "Tự Động Ghi Chú Meeting",
     description:
-      "AI nghe va ghi chu meeting real-time. Tom tat noi dung chinh, action items, nguoi phu trach va deadline — gui ngay sau khi hop xong.",
+      "AI nghe và ghi chú meeting real-time. Tóm tắt nội dung chính, action items, người phụ trách và deadline — gửi ngay sau khi họp xong.",
   },
   {
     title: "Jira Task Management",
     description:
-      "Tu dong tao task tu meeting notes, cap nhat trang thai, theo doi deadline. Nhac viec truoc khi tre han, bao cao task qua han.",
+      "Tự động tạo task từ meeting notes, cập nhật trạng thái, theo dõi deadline. Nhắc việc trước khi trễ hạn, báo cáo task quá hạn.",
   },
   {
     title: "Daily Standup Report",
     description:
-      "Tong hop tien do cong viec cua ca team hang ngay. Bao cao tu dong gui vao Telegram group moi sang — khong can hop standup dai dong.",
+      "Tổng hợp tiến độ công việc của cả team hàng ngày. Báo cáo tự động gửi vào Telegram group mỗi sáng — không cần họp standup dài dòng.",
   },
   {
-    title: "Theo Doi Deadline",
+    title: "Theo Dõi Deadline",
     description:
-      "He thong tu dong nhac viec truoc deadline 1 ngay, 3 ngay. Phat hien task bi block va thong bao nguoi lien quan.",
+      "Hệ thống tự động nhắc việc trước deadline 1 ngày, 3 ngày. Phát hiện task bị block và thông báo người liên quan.",
   },
   {
     title: "KPI Dashboard",
     description:
-      "Tong hop KPI tu nhieu nguon: Jira, Google Sheets, CRM. Dashboard truc quan cho manager nhin toan canh ma khong can mo nhieu tab.",
+      "Tổng hợp KPI từ nhiều nguồn: Jira, Google Sheets, CRM. Dashboard trực quan cho manager nhìn toàn cảnh mà không cần mở nhiều tab.",
   },
   {
     title: "Workflow Approval",
     description:
-      "Quy trinh duyet tu dong: nghi phep, mua sam, thay doi config. Manager duyet tren Telegram, he thong tu dong cap nhat.",
+      "Quy trình duyệt tự động: nghỉ phép, mua sắm, thay đổi config. Manager duyệt trên Telegram, hệ thống tự động cập nhật.",
   },
 ];
 
@@ -48,13 +48,13 @@ export default function OperationsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             tag="Operations Automation"
-            title="Tu Dong Hoa Van Hanh Noi Bo"
-            description="Meeting notes, Jira, bao cao tien do — tat ca chay tu dong. Team cua ban lam viec hieu qua hon 3 gio moi ngay."
+            title="Tự Động Hoá Vận Hành Nội Bộ"
+            description="Meeting notes, Jira, báo cáo tiến độ — tất cả chạy tự động. Team của bạn làm việc hiệu quả hơn 3 giờ mỗi ngày."
             light
           />
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
             <CTAButton href="/contact" variant="primary" size="lg">
-              Dang Ky Demo
+              Đăng Ký Demo
             </CTAButton>
             <CTAButton href="/showcases/koban" variant="outline" size="lg">
               Xem Case Study
@@ -66,8 +66,8 @@ export default function OperationsPage() {
       <section className="py-20 sm:py-28 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            tag="Tinh nang"
-            title="Toi Uu Hoa Moi Quy Trinh Van Hanh"
+            tag="Tính năng"
+            title="Tối Ưu Hoá Mọi Quy Trình Vận Hành"
           />
           <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {features.map((feature) => (
@@ -90,28 +90,28 @@ export default function OperationsPage() {
       <section className="py-20 sm:py-28 bg-gray-50">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            tag="So sanh"
-            title="Truoc Va Sau Khi Su Dung SyncFlow"
+            tag="So sánh"
+            title="Trước Và Sau Khi Sử Dụng SyncFlow"
           />
           <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="p-8 rounded-2xl bg-red-50 border border-red-200">
-              <h3 className="font-bold text-red-700 mb-4">Truoc SyncFlow</h3>
+              <h3 className="font-bold text-red-700 mb-4">Trước SyncFlow</h3>
               <ul className="space-y-3 text-red-600 text-sm">
-                <li>Meeting notes ghi bang tay, hay bi sot</li>
-                <li>Jira task tao thu cong, quen cap nhat</li>
-                <li>Standup hop 30 phut moi sang</li>
-                <li>Manager phai hoi tung nguoi ve tien do</li>
-                <li>KPI tong hop cuoi thang moi co</li>
+                <li>Meeting notes ghi bằng tay, hay bị sót</li>
+                <li>Jira task tạo thủ công, quên cập nhật</li>
+                <li>Standup họp 30 phút mỗi sáng</li>
+                <li>Manager phải hỏi từng người về tiến độ</li>
+                <li>KPI tổng hợp cuối tháng mới có</li>
               </ul>
             </div>
             <div className="p-8 rounded-2xl bg-green-50 border border-green-200">
               <h3 className="font-bold text-green-700 mb-4">Sau SyncFlow</h3>
               <ul className="space-y-3 text-green-600 text-sm">
-                <li>Meeting notes tu dong, day du 100%</li>
-                <li>Jira task tu tao tu meeting, tu cap nhat</li>
-                <li>Standup report tu dong moi sang 9h</li>
-                <li>Dashboard real-time, nhin la biet tien do</li>
-                <li>KPI cap nhat lien tuc, bao cao bat ky luc nao</li>
+                <li>Meeting notes tự động, đầy đủ 100%</li>
+                <li>Jira task tự tạo từ meeting, tự cập nhật</li>
+                <li>Standup report tự động mỗi sáng 9h</li>
+                <li>Dashboard real-time, nhìn là biết tiến độ</li>
+                <li>KPI cập nhật liên tục, báo cáo bất kỳ lúc nào</li>
               </ul>
             </div>
           </div>
@@ -121,13 +121,13 @@ export default function OperationsPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Team cua ban xung dang lam viec hieu qua hon
+            Team của bạn xứng đáng làm việc hiệu quả hơn
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            Bat dau tu dong hoa van hanh. 30 phut tu van mien phi, khong rang buoc.
+            Bắt đầu tự động hoá vận hành. 30 phút tư vấn miễn phí, không ràng buộc.
           </p>
           <CTAButton href="/contact" variant="primary" size="lg">
-            Dat Lich Tu Van
+            Đặt Lịch Tư Vấn
           </CTAButton>
         </div>
       </section>

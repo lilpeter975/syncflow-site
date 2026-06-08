@@ -4,25 +4,25 @@ import SectionHeading from "@/components/SectionHeading";
 import CTAButton from "@/components/CTAButton";
 
 export const metadata: Metadata = {
-  title: "Dich Vu Tu Dong Hoa",
+  title: "Dịch Vụ Tự Động Hoá",
   description:
-    "4 giai phap tu dong hoa bang AI: E-commerce, Social Media, Operations, AI Assistant. Phu hop cho doanh nghiep nho Viet Nam.",
+    "4 giải pháp tự động hoá bằng AI: E-commerce, Social Media, Operations, AI Assistant. Phù hợp cho doanh nghiệp nhỏ Việt Nam.",
 };
 
 const services = [
   {
     href: "/services/ecommerce",
     title: "E-Commerce Automation",
-    subtitle: "Tu dong hoa thuong mai dien tu",
+    subtitle: "Tự động hoá thương mại điện tử",
     description:
-      "Quan ly don hang, bao cao doanh thu, SEO blog, theo doi tu khoa — tat ca chay tu dong. Shop cua ban ban hang 24/7 ma khong can ngoi canh may tinh.",
+      "Quản lý đơn hàng, báo cáo doanh thu, SEO blog, theo dõi từ khoá — tất cả chạy tự động. Shop của bạn bán hàng 24/7 mà không cần ngồi cạnh máy tính.",
     features: [
-      "Tu dong xu ly va theo doi don hang",
-      "Bao cao doanh thu hang ngay/tuan/thang",
-      "Viet va dang SEO blog tu dong",
-      "Theo doi 500+ tu khoa Google",
-      "Dong bo ton kho da kenh",
-      "Alert khi het hang hot",
+      "Tự động xử lý và theo dõi đơn hàng",
+      "Báo cáo doanh thu hàng ngày/tuần/tháng",
+      "Viết và đăng SEO blog tự động",
+      "Theo dõi 500+ từ khoá Google",
+      "Đồng bộ tồn kho đa kênh",
+      "Alert khi hết hàng hot",
     ],
     icon: (
       <svg className="w-12 h-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -33,16 +33,16 @@ const services = [
   {
     href: "/services/social-media",
     title: "Social Media Automation",
-    subtitle: "Tu dong dang bai da kenh",
+    subtitle: "Tự động đăng bài đa kênh",
     description:
-      "Mot bai viet, tu dong dang len Facebook, Instagram, X va Telegram. AI tao caption, chon hashtag, len lich dang vao khung gio vang.",
+      "Một bài viết, tự động đăng lên Facebook, Instagram, X và Telegram. AI tạo caption, chọn hashtag, lên lịch đăng vào khung giờ vàng.",
     features: [
       "Auto-post Facebook, Instagram, X, Telegram",
-      "AI tao caption va hashtag",
-      "Len lich dang bai thong minh",
-      "Bao cao hieu qua tung kenh",
-      "A/B test tieu de tu dong",
-      "Repurpose noi dung da dinh dang",
+      "AI tạo caption và hashtag",
+      "Lên lịch đăng bài thông minh",
+      "Báo cáo hiệu quả từng kênh",
+      "A/B test tiêu đề tự động",
+      "Repurpose nội dung đa định dạng",
     ],
     icon: (
       <svg className="w-12 h-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -53,16 +53,16 @@ const services = [
   {
     href: "/services/operations",
     title: "Operations Automation",
-    subtitle: "Tu dong hoa van hanh noi bo",
+    subtitle: "Tự động hoá vận hành nội bộ",
     description:
-      "Meeting notes tu dong, Jira task management, bao cao tien do hang ngay. Team cua ban lam viec hieu qua hon ma khong can micromanage.",
+      "Meeting notes tự động, Jira task management, báo cáo tiến độ hàng ngày. Team của bạn làm việc hiệu quả hơn mà không cần micromanage.",
     features: [
-      "Tu dong ghi chu va tom tat meeting",
-      "Tao va cap nhat Jira task tu dong",
-      "Bao cao tien do daily standup",
-      "Theo doi deadline va nhac viec",
-      "Tong hop KPI tu nhieu nguon",
-      "Workflow approval tu dong",
+      "Tự động ghi chú và tóm tắt meeting",
+      "Tạo và cập nhật Jira task tự động",
+      "Báo cáo tiến độ daily standup",
+      "Theo dõi deadline và nhắc việc",
+      "Tổng hợp KPI từ nhiều nguồn",
+      "Workflow approval tự động",
     ],
     icon: (
       <svg className="w-12 h-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -74,16 +74,16 @@ const services = [
   {
     href: "/services/ai-assistant",
     title: "AI Assistant 24/7",
-    subtitle: "Tro ly AI qua Telegram va chat",
+    subtitle: "Trợ lý AI qua Telegram và chat",
     description:
-      "Chatbot thong minh tra loi khach hang 24/7 qua Telegram, Facebook Messenger, website. Hieu ngu canh, nho lich su, xu ly yeu cau phuc tap.",
+      "Chatbot thông minh trả lời khách hàng 24/7 qua Telegram, Facebook Messenger, website. Hiểu ngữ cảnh, nhớ lịch sử, xử lý yêu cầu phức tạp.",
     features: [
-      "Chatbot Telegram va Messenger 24/7",
-      "Tra loi cau hoi khach hang tu dong",
-      "Tu van san pham thong minh",
-      "Chuyen tiep nhan vien khi can",
-      "Hoc tu lich su hoi thoai",
-      "Da ngon ngu (Viet, Anh, Trung)",
+      "Chatbot Telegram và Messenger 24/7",
+      "Trả lời câu hỏi khách hàng tự động",
+      "Tư vấn sản phẩm thông minh",
+      "Chuyển tiếp nhân viên khi cần",
+      "Học từ lịch sử hội thoại",
+      "Đa ngôn ngữ (Việt, Anh, Trung)",
     ],
     icon: (
       <svg className="w-12 h-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -99,9 +99,9 @@ export default function ServicesPage() {
       <section className="bg-dark-bg py-20 sm:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            tag="Dich vu"
-            title="Giai Phap Tu Dong Hoa Toan Dien"
-            description="4 nhom giai phap phu hop cho moi doanh nghiep nho tai Viet Nam. Tu ban hang online den van hanh noi bo — SyncFlow tu dong hoa tat ca."
+            tag="Dịch vụ"
+            title="Giải Pháp Tự Động Hoá Toàn Diện"
+            description="4 nhóm giải pháp phù hợp cho mọi doanh nghiệp nhỏ tại Việt Nam. Từ bán hàng online đến vận hành nội bộ — SyncFlow tự động hoá tất cả."
             light
           />
         </div>
@@ -130,13 +130,13 @@ export default function ServicesPage() {
                   {service.description}
                 </p>
                 <CTAButton href={service.href}>
-                  Tim hieu chi tiet
+                  Tìm hiểu chi tiết
                 </CTAButton>
               </div>
               <div className="lg:w-1/2">
                 <div className="bg-gray-50 rounded-2xl p-8 border border-gray-200">
                   <h3 className="font-semibold text-gray-900 mb-4">
-                    Tinh nang chinh:
+                    Tính năng chính:
                   </h3>
                   <ul className="space-y-3">
                     {service.features.map((feature) => (
@@ -159,14 +159,14 @@ export default function ServicesPage() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(37,99,235,0.15),transparent_60%)]" />
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white">
-            Chua biet bat dau tu dau?
+            Chưa biết bắt đầu từ đâu?
           </h2>
           <p className="mt-4 text-lg text-gray-400">
-            Dang ky tu van mien phi. Chung toi se phan tich quy trinh cua ban va goi y giai phap phu hop nhat.
+            Đăng ký tư vấn miễn phí. Chúng tôi sẽ phân tích quy trình của bạn và gợi ý giải pháp phù hợp nhất.
           </p>
           <div className="mt-8">
             <CTAButton href="/contact" variant="primary" size="lg">
-              Dang Ky Tu Van Mien Phi
+              Đăng Ký Tư Vấn Miễn Phí
             </CTAButton>
           </div>
         </div>

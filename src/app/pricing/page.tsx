@@ -3,94 +3,94 @@ import SectionHeading from "@/components/SectionHeading";
 import CTAButton from "@/components/CTAButton";
 
 export const metadata: Metadata = {
-  title: "Bang Gia Dich Vu",
+  title: "Bảng Giá Dịch Vụ",
   description:
-    "3 goi dich vu tu dong hoa: Starter tu 5tr/thang, Growth tu 15tr/thang, Enterprise tu 40tr/thang. Phu hop moi quy mo doanh nghiep.",
+    "3 gói dịch vụ tự động hoá: Starter từ 5tr/tháng, Growth từ 15tr/tháng, Enterprise từ 40tr/tháng. Phù hợp mọi quy mô doanh nghiệp.",
 };
 
 const tiers = [
   {
     name: "Starter",
     price: "5-10",
-    unit: "tr/thang",
-    description: "Cho shop nho, 1-3 nguoi van hanh. Bat dau tu dong hoa nhung viec co ban nhat.",
+    unit: "tr/tháng",
+    description: "Cho shop nhỏ, 1-3 người vận hành. Bắt đầu tự động hoá những việc cơ bản nhất.",
     features: [
-      "1-2 quy trinh tu dong hoa",
-      "Bao cao doanh thu hang tuan qua Telegram",
-      "Auto-post 1 kenh social media",
-      "Chatbot FAQ co ban (50 cau hoi)",
-      "Email ho tro trong gio hanh chinh",
-      "Bao tri va cap nhat hang thang",
-      "Training su dung 1 buoi",
+      "1-2 quy trình tự động hoá",
+      "Báo cáo doanh thu hàng tuần qua Telegram",
+      "Auto-post 1 kênh social media",
+      "Chatbot FAQ cơ bản (50 câu hỏi)",
+      "Email hỗ trợ trong giờ hành chính",
+      "Bảo trì và cập nhật hàng tháng",
+      "Training sử dụng 1 buổi",
     ],
     notIncluded: [
       "Custom dashboard",
-      "Tich hop ERP/CRM",
-      "AI Assistant da ngon ngu",
+      "Tích hợp ERP/CRM",
+      "AI Assistant đa ngôn ngữ",
       "Dedicated account manager",
     ],
   },
   {
     name: "Growth",
     price: "15-25",
-    unit: "tr/thang",
-    description: "Cho doanh nghiep dang scale, 3-10 nguoi. Tu dong hoa da kenh, da quy trinh.",
+    unit: "tr/tháng",
+    description: "Cho doanh nghiệp đang scale, 3-10 người. Tự động hoá đa kênh, đa quy trình.",
     popular: true,
     features: [
-      "5-8 quy trinh tu dong hoa",
-      "Bao cao real-time dashboard",
-      "Auto-post da kenh (FB, IG, X, TG)",
+      "5-8 quy trình tự động hoá",
+      "Báo cáo real-time dashboard",
+      "Auto-post đa kênh (FB, IG, X, TG)",
       "AI Assistant Telegram 24/7",
-      "SEO blog tu dong hang tuan",
+      "SEO blog tự động hàng tuần",
       "Meeting notes + Jira integration",
-      "Theo doi 500+ tu khoa SEO",
-      "Ho tro uu tien qua Telegram",
-      "Training team 3 buoi",
-      "Review va toi uu hang thang",
+      "Theo dõi 500+ từ khoá SEO",
+      "Hỗ trợ ưu tiên qua Telegram",
+      "Training team 3 buổi",
+      "Review và tối ưu hàng tháng",
     ],
     notIncluded: [
-      "Tich hop ERP/CRM",
+      "Tích hợp ERP/CRM",
       "Dedicated account manager",
     ],
   },
   {
     name: "Enterprise",
     price: "40-60",
-    unit: "tr/thang",
-    description: "Cho SME 10-50 nhan vien. Giai phap toan dien, tuy chinh theo nhu cau.",
+    unit: "tr/tháng",
+    description: "Cho SME 10-50 nhân viên. Giải pháp toàn diện, tuỳ chỉnh theo nhu cầu.",
     features: [
-      "Unlimited quy trinh tu dong hoa",
+      "Unlimited quy trình tự động hoá",
       "Custom dashboard + KPI tracking",
-      "AI Assistant da ngon ngu (Viet, Anh, Trung)",
-      "Tich hop ERP, CRM, phan mem ke toan",
+      "AI Assistant đa ngôn ngữ (Việt, Anh, Trung)",
+      "Tích hợp ERP, CRM, phần mềm kế toán",
       "Dedicated account manager",
       "SLA 99.9% uptime",
       "Training team unlimited",
-      "Tu van chien luoc automation hang quy",
-      "Custom workflow theo yeu cau",
-      "Uu tien phat trien tinh nang moi",
-      "Bao mat va backup du lieu nang cao",
-      "Hotline ho tro 24/7",
+      "Tư vấn chiến lược automation hàng quý",
+      "Custom workflow theo yêu cầu",
+      "Ưu tiên phát triển tính năng mới",
+      "Bảo mật và backup dữ liệu nâng cao",
+      "Hotline hỗ trợ 24/7",
     ],
   },
 ];
 
 const faqs = [
   {
-    q: "Co phai tra phi setup khong?",
-    a: "Khong. Phi setup da bao gom trong goi dich vu thang dau tien. Ban chi tra phi hang thang, khong co phi an.",
+    q: "Có phải trả phí setup không?",
+    a: "Không. Phí setup đã bao gồm trong gói dịch vụ tháng đầu tiên. Bạn chỉ trả phí hàng tháng, không có phí ẩn.",
   },
   {
-    q: "Co the nang cap hoac ha cap goi khong?",
-    a: "Co. Ban co the thay doi goi bat ky luc nao. Phi duoc tinh theo ty le thoi gian con lai trong thang.",
+    q: "Có thể nâng cấp hoặc hạ cấp gói không?",
+    a: "Có. Bạn có thể thay đổi gói bất kỳ lúc nào. Phí được tính theo tỷ lệ thời gian còn lại trong tháng.",
   },
   {
-    q: "Thoi gian setup mat bao lau?",
-    a: "Goi Starter: 1 tuan. Goi Growth: 1-2 tuan. Goi Enterprise: 2-4 tuan tuy do phuc tap.",
+    q: "Thời gian setup mất bao lâu?",
+    a: "Gói Starter: 1 tuần. Gói Growth: 1-2 tuần. Gói Enterprise: 2-4 tuần tuỳ độ phức tạp.",
   },
   {
-    q: "Co chinh sach hoan tien khong?",
-    a: "Co. Hoan tien 100% trong 30 ngay dau neu ban khong hai long voi dich vu.",
+    q: "Có chính sách hoàn tiền không?",
+    a: "Có. Hoàn tiền 100% trong 30 ngày đầu nếu bạn không hài lòng với dịch vụ.",
   },
 ];
 
@@ -100,9 +100,9 @@ export default function PricingPage() {
       <section className="bg-dark-bg py-20 sm:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            tag="Bang gia"
-            title="Goi Dich Vu Minh Bach, Khong Phi An"
-            description="Chon goi phu hop voi quy mo va nhu cau cua ban. Moi goi deu bao gom setup, training va ho tro ky thuat."
+            tag="Bảng giá"
+            title="Gói Dịch Vụ Minh Bạch, Không Phí Ẩn"
+            description="Chọn gói phù hợp với quy mô và nhu cầu của bạn. Mọi gói đều bao gồm setup, training và hỗ trợ kỹ thuật."
             light
           />
         </div>
@@ -122,7 +122,7 @@ export default function PricingPage() {
               >
                 {tier.popular && (
                   <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-white text-xs font-bold px-4 py-1 rounded-full">
-                    Pho bien nhat
+                    Phổ biến nhất
                   </span>
                 )}
                 <h3 className="text-2xl font-bold text-gray-900">{tier.name}</h3>
@@ -137,11 +137,11 @@ export default function PricingPage() {
                   variant={tier.popular ? "primary" : "outline"}
                   size="md"
                 >
-                  Bat Dau Ngay
+                  Bắt Đầu Ngay
                 </CTAButton>
 
                 <div className="mt-8 pt-8 border-t border-gray-200">
-                  <h4 className="font-semibold text-gray-900 mb-4">Bao gom:</h4>
+                  <h4 className="font-semibold text-gray-900 mb-4">Bao gồm:</h4>
                   <ul className="space-y-3">
                     {tier.features.map((feature) => (
                       <li key={feature} className="flex items-start gap-3 text-sm text-gray-600">
@@ -155,7 +155,7 @@ export default function PricingPage() {
 
                   {tier.notIncluded && (
                     <>
-                      <h4 className="font-semibold text-gray-400 mb-4 mt-6">Khong bao gom:</h4>
+                      <h4 className="font-semibold text-gray-400 mb-4 mt-6">Không bao gồm:</h4>
                       <ul className="space-y-3">
                         {tier.notIncluded.map((feature) => (
                           <li key={feature} className="flex items-start gap-3 text-sm text-gray-400">
@@ -179,7 +179,7 @@ export default function PricingPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             tag="FAQ"
-            title="Cau Hoi Thuong Gap Ve Gia"
+            title="Câu Hỏi Thường Gặp Về Giá"
           />
           <div className="mt-12 space-y-6">
             {faqs.map((faq) => (
@@ -195,13 +195,13 @@ export default function PricingPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Can tu van goi nao phu hop?
+            Cần tư vấn gói nào phù hợp?
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            Goi cho chung toi. 30 phut tu van mien phi, chung toi se giup ban chon goi tot nhat.
+            Gọi cho chúng tôi. 30 phút tư vấn miễn phí, chúng tôi sẽ giúp bạn chọn gói tốt nhất.
           </p>
           <CTAButton href="/contact" variant="primary" size="lg">
-            Lien He Tu Van
+            Liên Hệ Tư Vấn
           </CTAButton>
         </div>
       </section>

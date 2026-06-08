@@ -3,49 +3,49 @@ import SectionHeading from "@/components/SectionHeading";
 import CTAButton from "@/components/CTAButton";
 
 export const metadata: Metadata = {
-  title: "E-Commerce Automation — Tu Dong Hoa Thuong Mai Dien Tu",
+  title: "E-Commerce Automation — Tự Động Hoá Thương Mại Điện Tử",
   description:
-    "Tu dong hoa quan ly don hang, bao cao doanh thu, SEO blog va theo doi tu khoa cho shop online. Phu hop Haravan, Shopify, Shopee.",
+    "Tự động hoá quản lý đơn hàng, báo cáo doanh thu, SEO blog và theo dõi từ khoá cho shop online. Phù hợp Haravan, Shopify, Shopee.",
 };
 
 const features = [
   {
-    title: "Tu Dong Xu Ly Don Hang",
+    title: "Tự Động Xử Lý Đơn Hàng",
     description:
-      "He thong tu dong nhan don, cap nhat trang thai, gui thong bao cho khach hang va dong bo voi van chuyen. Khong can ngoi refresh admin ca ngay.",
+      "Hệ thống tự động nhận đơn, cập nhật trạng thái, gửi thông báo cho khách hàng và đồng bộ với vận chuyển. Không cần ngồi refresh admin cả ngày.",
   },
   {
-    title: "Bao Cao Doanh Thu Thong Minh",
+    title: "Báo Cáo Doanh Thu Thông Minh",
     description:
-      "Bao cao tu dong hang ngay, hang tuan, hang thang. So sanh doanh thu theo thoi gian, san pham ban chay, ty le chuyen doi — gui thang vao Telegram.",
+      "Báo cáo tự động hàng ngày, hàng tuần, hàng tháng. So sánh doanh thu theo thời gian, sản phẩm bán chạy, tỷ lệ chuyển đổi — gửi thẳng vào Telegram.",
   },
   {
-    title: "SEO Blog Tu Dong",
+    title: "SEO Blog Tự Động",
     description:
-      "AI viet bai SEO chuyen nghiep, toi uu H1-H6, meta tags, schema markup. Dang tu dong len blog cua shop, giup tang traffic organic mien phi.",
+      "AI viết bài SEO chuyên nghiệp, tối ưu H1-H6, meta tags, schema markup. Đăng tự động lên blog của shop, giúp tăng traffic organic miễn phí.",
   },
   {
-    title: "Theo Doi 500+ Tu Khoa",
+    title: "Theo Dõi 500+ Từ Khoá",
     description:
-      "He thong tracking thu hang Google cho 500+ tu khoa moi ngay. Bao cao xu huong, phat hien co hoi keyword moi, goi y noi dung can viet.",
+      "Hệ thống tracking thứ hạng Google cho 500+ từ khoá mỗi ngày. Báo cáo xu hướng, phát hiện cơ hội keyword mới, gợi ý nội dung cần viết.",
   },
   {
-    title: "Dong Bo Ton Kho Da Kenh",
+    title: "Đồng Bộ Tồn Kho Đa Kênh",
     description:
-      "Ton kho tu dong dong bo giua Haravan, Shopee, Lazada, TikTok Shop. Het hang o kenh nay tu dong an o kenh kia — khong bao gio ban vuot.",
+      "Tồn kho tự động đồng bộ giữa Haravan, Shopee, Lazada, TikTok Shop. Hết hàng ở kênh này tự động ẩn ở kênh kia — không bao giờ bán vượt.",
   },
   {
-    title: "Alert Het Hang Va Xu Huong",
+    title: "Alert Hết Hàng Và Xu Hướng",
     description:
-      "Thong bao khi san pham sap het hang, khi co san pham ban chay bat thuong, khi doi thu thay doi gia. Ban luon nam bat thi truong.",
+      "Thông báo khi sản phẩm sắp hết hàng, khi có sản phẩm bán chạy bất thường, khi đối thủ thay đổi giá. Bạn luôn nắm bắt thị trường.",
   },
 ];
 
 const workflow = [
-  { step: "1", title: "Ket noi shop", description: "Lien ket Haravan, Shopify hoac Shopee chi trong 10 phut" },
-  { step: "2", title: "Cau hinh quy trinh", description: "Chon quy trinh can tu dong hoa va cai dat thong so" },
-  { step: "3", title: "AI hoat dong", description: "He thong bat dau chay 24/7, ban nhan bao cao qua Telegram" },
-  { step: "4", title: "Toi uu lien tuc", description: "AI hoc tu data cua ban de ngay cang chinh xac hon" },
+  { step: "1", title: "Kết nối shop", description: "Liên kết Haravan, Shopify hoặc Shopee chỉ trong 10 phút" },
+  { step: "2", title: "Cấu hình quy trình", description: "Chọn quy trình cần tự động hoá và cài đặt thông số" },
+  { step: "3", title: "AI hoạt động", description: "Hệ thống bắt đầu chạy 24/7, bạn nhận báo cáo qua Telegram" },
+  { step: "4", title: "Tối ưu liên tục", description: "AI học từ data của bạn để ngày càng chính xác hơn" },
 ];
 
 export default function EcommercePage() {
@@ -55,13 +55,13 @@ export default function EcommercePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             tag="E-Commerce Automation"
-            title="Tu Dong Hoa Thuong Mai Dien Tu"
-            description="Don hang, bao cao, SEO, ton kho — tat ca chay tu dong. Ban chi can tap trung vao chien luoc kinh doanh va cham soc khach hang."
+            title="Tự Động Hoá Thương Mại Điện Tử"
+            description="Đơn hàng, báo cáo, SEO, tồn kho — tất cả chạy tự động. Bạn chỉ cần tập trung vào chiến lược kinh doanh và chăm sóc khách hàng."
             light
           />
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
             <CTAButton href="/contact" variant="primary" size="lg">
-              Dang Ky Demo
+              Đăng Ký Demo
             </CTAButton>
             <CTAButton href="/showcases/snapshop" variant="outline" size="lg">
               Xem Case Study
@@ -73,8 +73,8 @@ export default function EcommercePage() {
       <section className="py-20 sm:py-28 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            tag="Tinh nang"
-            title="Moi Thu Ban Can Cho Shop Online"
+            tag="Tính năng"
+            title="Mọi Thứ Bạn Cần Cho Shop Online"
           />
           <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {features.map((feature) => (
@@ -97,8 +97,8 @@ export default function EcommercePage() {
       <section className="py-20 sm:py-28 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            tag="Quy trinh"
-            title="Bat Dau Trong 4 Buoc Don Gian"
+            tag="Quy trình"
+            title="Bắt Đầu Trong 4 Bước Đơn Giản"
           />
           <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {workflow.map((step) => (
@@ -117,13 +117,13 @@ export default function EcommercePage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            San sang tu dong hoa shop cua ban?
+            Sẵn sàng tự động hoá shop của bạn?
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            Bat dau voi buoi tu van mien phi 30 phut. Chung toi se phan tich shop cua ban va de xuat giai phap cu the.
+            Bắt đầu với buổi tư vấn miễn phí 30 phút. Chúng tôi sẽ phân tích shop của bạn và đề xuất giải pháp cụ thể.
           </p>
           <CTAButton href="/contact" variant="primary" size="lg">
-            Dat Lich Tu Van Mien Phi
+            Đặt Lịch Tư Vấn Miễn Phí
           </CTAButton>
         </div>
       </section>

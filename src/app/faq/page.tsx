@@ -6,44 +6,44 @@ import CTAButton from "@/components/CTAButton";
 
 const faqs = [
   {
-    q: "SyncFlow la gi?",
-    a: "SyncFlow la dich vu tu dong hoa doanh nghiep bang AI, chuyen biet cho doanh nghiep nho Viet Nam. Chung toi giup ban tu dong hoa cac quy trinh: bao cao doanh thu, dang bai social media, SEO blog, cham soc khach hang va van hanh noi bo — de ban tap trung vao tang truong kinh doanh.",
+    q: "SyncFlow là gì?",
+    a: "SyncFlow là dịch vụ tự động hoá doanh nghiệp bằng AI, chuyên biệt cho doanh nghiệp nhỏ Việt Nam. Chúng tôi giúp bạn tự động hoá các quy trình: báo cáo doanh thu, đăng bài social media, SEO blog, chăm sóc khách hàng và vận hành nội bộ — để bạn tập trung vào tăng trưởng kinh doanh.",
   },
   {
-    q: "SyncFlow phu hop voi loai doanh nghiep nao?",
-    a: "SyncFlow phu hop voi: shop online (Haravan, Shopify, Shopee), doanh nghiep nho 2-50 nhan vien, startup dang scale, team marketing can tu dong hoa content. Bat ky doanh nghiep nao co cong viec lap di lap lai deu huong loi tu AI automation.",
+    q: "SyncFlow phù hợp với loại doanh nghiệp nào?",
+    a: "SyncFlow phù hợp với: shop online (Haravan, Shopify, Shopee), doanh nghiệp nhỏ 2-50 nhân viên, startup đang scale, team marketing cần tự động hoá content. Bất kỳ doanh nghiệp nào có công việc lặp đi lặp lại đều hưởng lợi từ AI automation.",
   },
   {
-    q: "Thoi gian setup mat bao lau?",
-    a: "Tuy vao goi dich vu: Starter setup trong 1 tuan, Growth trong 1-2 tuan, Enterprise trong 2-4 tuan. Trong thoi gian setup, chung toi se training team cua ban su dung he thong.",
+    q: "Thời gian setup mất bao lâu?",
+    a: "Tuỳ vào gói dịch vụ: Starter setup trong 1 tuần, Growth trong 1-2 tuần, Enterprise trong 2-4 tuần. Trong thời gian setup, chúng tôi sẽ training team của bạn sử dụng hệ thống.",
   },
   {
-    q: "Toi co can biet ky thuat khong?",
-    a: "Khong. SyncFlow duoc thiet ke cho nguoi khong biet ky thuat. Chung toi setup toan bo he thong, training team su dung, va ho tro ky thuat lien tuc. Ban chi can biet su dung Telegram va trinh duyet web.",
+    q: "Tôi có cần biết kỹ thuật không?",
+    a: "Không. SyncFlow được thiết kế cho người không biết kỹ thuật. Chúng tôi setup toàn bộ hệ thống, training team sử dụng, và hỗ trợ kỹ thuật liên tục. Bạn chỉ cần biết sử dụng Telegram và trình duyệt web.",
   },
   {
-    q: "Du lieu cua toi co an toan khong?",
-    a: "Tuyet doi an toan. Chung toi su dung ma hoa end-to-end, server dat tai Viet Nam va Singapore. Du lieu cua ban khong bao gio duoc chia se voi ben thu ba. Chung toi tuan thu quy dinh bao ve du lieu ca nhan Viet Nam.",
+    q: "Dữ liệu của tôi có an toàn không?",
+    a: "Tuyệt đối an toàn. Chúng tôi sử dụng mã hoá end-to-end, server đặt tại Việt Nam và Singapore. Dữ liệu của bạn không bao giờ được chia sẻ với bên thứ ba. Chúng tôi tuân thủ quy định bảo vệ dữ liệu cá nhân Việt Nam.",
   },
   {
-    q: "Co the tich hop voi phan mem hien tai khong?",
-    a: "Co. SyncFlow tich hop voi nhieu nen tang pho bien: Haravan, Shopify, Shopee, Facebook, Instagram, Telegram, Jira, Google Sheets, Google Analytics, va nhieu hon. Goi Enterprise con ho tro tich hop ERP, CRM va phan mem ke toan.",
+    q: "Có thể tích hợp với phần mềm hiện tại không?",
+    a: "Có. SyncFlow tích hợp với nhiều nền tảng phổ biến: Haravan, Shopify, Shopee, Facebook, Instagram, Telegram, Jira, Google Sheets, Google Analytics, và nhiều hơn. Gói Enterprise còn hỗ trợ tích hợp ERP, CRM và phần mềm kế toán.",
   },
   {
-    q: "Gia dich vu bao nhieu?",
-    a: "SyncFlow co 3 goi: Starter tu 5-10 trieu/thang cho shop nho, Growth tu 15-25 trieu/thang cho doanh nghiep dang scale, Enterprise tu 40-60 trieu/thang cho SME 10-50 nguoi. Tat ca deu bao gom setup, training va ho tro ky thuat. Xem chi tiet tai trang Bang Gia.",
+    q: "Giá dịch vụ bao nhiêu?",
+    a: "SyncFlow có 3 gói: Starter từ 5-10 triệu/tháng cho shop nhỏ, Growth từ 15-25 triệu/tháng cho doanh nghiệp đang scale, Enterprise từ 40-60 triệu/tháng cho SME 10-50 người. Tất cả đều bao gồm setup, training và hỗ trợ kỹ thuật. Xem chi tiết tại trang Bảng Giá.",
   },
   {
-    q: "Co chinh sach hoan tien khong?",
-    a: "Co. Chung toi cam ket hoan tien 100% trong 30 ngay dau neu ban khong hai long voi dich vu. Khong dieu kien, khong rang buoc.",
+    q: "Có chính sách hoàn tiền không?",
+    a: "Có. Chúng tôi cam kết hoàn tiền 100% trong 30 ngày đầu nếu bạn không hài lòng với dịch vụ. Không điều kiện, không ràng buộc.",
   },
   {
-    q: "He thong co hoat dong 24/7 khong?",
-    a: "Co. Sau khi setup, he thong AI hoat dong 24/7 khong nghi. Chatbot tra loi khach hang luc 2h sang, bao cao gui dung gio, social media dang bai theo lich — tat ca deu tu dong.",
+    q: "Hệ thống có hoạt động 24/7 không?",
+    a: "Có. Sau khi setup, hệ thống AI hoạt động 24/7 không nghỉ. Chatbot trả lời khách hàng lúc 2h sáng, báo cáo gửi đúng giờ, social media đăng bài theo lịch — tất cả đều tự động.",
   },
   {
-    q: "Toi muon thu truoc, co demo khong?",
-    a: "Co. Dang ky tu van mien phi, chung toi se demo truc tiep tren quy trinh thuc te cua doanh nghiep ban. Buoi demo keo dai 30 phut, hoan toan mien phi va khong rang buoc.",
+    q: "Tôi muốn thử trước, có demo không?",
+    a: "Có. Đăng ký tư vấn miễn phí, chúng tôi sẽ demo trực tiếp trên quy trình thực tế của doanh nghiệp bạn. Buổi demo kéo dài 30 phút, hoàn toàn miễn phí và không ràng buộc.",
   },
 ];
 
@@ -85,8 +85,8 @@ export default function FAQPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             tag="FAQ"
-            title="Cau Hoi Thuong Gap"
-            description="Nhung cau hoi ma khach hang hay hoi nhat. Khong tim thay cau tra loi? Lien he truc tiep voi chung toi."
+            title="Câu Hỏi Thường Gặp"
+            description="Những câu hỏi mà khách hàng hay hỏi nhất. Không tìm thấy câu trả lời? Liên hệ trực tiếp với chúng tôi."
             light
           />
         </div>
@@ -105,14 +105,14 @@ export default function FAQPage() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Con cau hoi khac?
+            Còn câu hỏi khác?
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            Lien he truc tiep voi chung toi. Phan hoi trong vong 24 gio lam viec.
+            Liên hệ trực tiếp với chúng tôi. Phản hồi trong vòng 24 giờ làm việc.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <CTAButton href="/contact" variant="primary" size="lg">
-              Lien He Ngay
+              Liên Hệ Ngay
             </CTAButton>
             <CTAButton href="mailto:hello@syncflow.vn" variant="outline" size="lg">
               Email: hello@syncflow.vn

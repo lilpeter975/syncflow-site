@@ -3,15 +3,15 @@ import SectionHeading from "@/components/SectionHeading";
 import CTAButton from "@/components/CTAButton";
 
 export const metadata: Metadata = {
-  title: "Koban Gaming — Operations Automation Case Study",
+  title: "GameStudio — Operations Automation Case Study",
   description:
-    "Cong ty gaming tu dong hoa van hanh: meeting notes, Jira monitoring, game config management. Tiet kiem 3 gio/ngay.",
+    "Công ty gaming tự động hoá vận hành: meeting notes, Jira monitoring, game config management. Tiết kiệm 3 giờ/ngày.",
 };
 
 const stats = [
-  { value: "3h", label: "Tiet kiem moi ngay" },
-  { value: "40+", label: "Game duoc quan ly" },
-  { value: "100%", label: "Meeting notes tu dong" },
+  { value: "3h", label: "Tiết kiệm mỗi ngày" },
+  { value: "40+", label: "Game được quản lý" },
+  { value: "100%", label: "Meeting notes tự động" },
   { value: "24/7", label: "Jira monitoring" },
 ];
 
@@ -25,12 +25,12 @@ export default function KobanShowcase() {
               Gaming Operations
             </span>
             <span className="text-xs font-semibold text-gray-400 bg-gray-800 px-3 py-1 rounded-full">
-              TP. Ho Chi Minh
+              TP. Hồ Chí Minh
             </span>
           </div>
           <SectionHeading
-            title="Koban Gaming"
-            description="Cong ty game tu dong hoa van hanh noi bo: meeting notes, Jira task tracking, quan ly cau hinh 40+ game. Team operations lam viec hieu qua gap boi."
+            title="GameStudio"
+            description="Công ty game tự động hoá vận hành nội bộ: meeting notes, Jira task tracking, quản lý cấu hình 40+ game. Team operations làm việc hiệu quả gấp bội."
             light
           />
           <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto">
@@ -46,46 +46,46 @@ export default function KobanShowcase() {
 
       <section className="py-20 sm:py-28 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Thach thuc</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Thách thức</h2>
           <p className="text-gray-600 text-lg leading-relaxed mb-8">
-            Koban quan ly 40+ game online, moi game co cau hinh rieng can theo doi.
-            Team operations phai ghi chep meeting thu cong, cap nhat Jira task bang tay,
-            va theo doi trang thai game 24/7. Cong viec lap di lap lai chiem mat 3+ gio moi ngay.
+            GameStudio quản lý 40+ game online, mỗi game có cấu hình riêng cần theo dõi.
+            Team operations phải ghi chép meeting thủ công, cập nhật Jira task bằng tay,
+            và theo dõi trạng thái game 24/7. Công việc lặp đi lặp lại chiếm mất 3+ giờ mỗi ngày.
           </p>
 
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Giai phap</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Giải pháp</h2>
           <div className="space-y-4 mb-8">
             <div className="p-6 rounded-xl bg-gray-50 border border-gray-200">
               <h3 className="font-bold text-gray-900 mb-2">Auto Meeting Notes</h3>
               <p className="text-gray-600 text-sm">
-                AI tu dong ghi chep va tom tat moi cuoc hop. Trich xuat action items,
-                nguoi phu trach va deadline. Gui ket qua vao Telegram ngay sau khi hop xong.
+                AI tự động ghi chép và tóm tắt mỗi cuộc họp. Trích xuất action items,
+                người phụ trách và deadline. Gửi kết quả vào Telegram ngay sau khi họp xong.
               </p>
             </div>
             <div className="p-6 rounded-xl bg-gray-50 border border-gray-200">
               <h3 className="font-bold text-gray-900 mb-2">Jira Monitoring</h3>
               <p className="text-gray-600 text-sm">
-                He thong theo doi trang thai task Jira 24/7. Thong bao khi task qua han,
-                khi co thay doi trang thai, va tong hop bao cao tien do hang ngay.
+                Hệ thống theo dõi trạng thái task Jira 24/7. Thông báo khi task quá hạn,
+                khi có thay đổi trạng thái, và tổng hợp báo cáo tiến độ hàng ngày.
               </p>
             </div>
             <div className="p-6 rounded-xl bg-gray-50 border border-gray-200">
               <h3 className="font-bold text-gray-900 mb-2">Game Config Management</h3>
               <p className="text-gray-600 text-sm">
-                Quan ly cau hinh 40+ game tu dong: RTP, lich bao tri, trang thai hoat dong.
-                Thay doi config qua Telegram command, khong can truy cap admin panel.
+                Quản lý cấu hình 40+ game tự động: RTP, lịch bảo trì, trạng thái hoạt động.
+                Thay đổi config qua Telegram command, không cần truy cập admin panel.
               </p>
             </div>
           </div>
 
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Ket qua</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Kết quả</h2>
           <ul className="space-y-3 mb-12">
             {[
-              "Meeting notes tu dong 100%, khong sot thong tin",
-              "Jira task tracking 24/7, thong bao qua han real-time",
-              "Quan ly cau hinh 40+ game tu Telegram",
-              "Daily standup report tu dong luc 9h sang",
-              "Tiet kiem 3 gio/ngay cho team operations",
+              "Meeting notes tự động 100%, không sót thông tin",
+              "Jira task tracking 24/7, thông báo quá hạn real-time",
+              "Quản lý cấu hình 40+ game từ Telegram",
+              "Daily standup report tự động lúc 9h sáng",
+              "Tiết kiệm 3 giờ/ngày cho team operations",
             ].map((result) => (
               <li key={result} className="flex items-start gap-3 text-gray-700">
                 <svg className="w-5 h-5 text-green-500 shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -98,7 +98,7 @@ export default function KobanShowcase() {
 
           <div className="text-center">
             <CTAButton href="/contact" variant="primary" size="lg">
-              Tu Dong Hoa Operations Cua Ban
+              Tự Động Hoá Operations Của Bạn
             </CTAButton>
           </div>
         </div>

@@ -3,49 +3,49 @@ import SectionHeading from "@/components/SectionHeading";
 import CTAButton from "@/components/CTAButton";
 
 export const metadata: Metadata = {
-  title: "AI Assistant 24/7 — Tro Ly AI Qua Chat",
+  title: "AI Assistant 24/7 — Trợ Lý AI Qua Chat",
   description:
-    "Chatbot AI thong minh qua Telegram, Messenger, website. Tra loi khach hang 24/7, tu van san pham, chuyen tiep nhan vien khi can.",
+    "Chatbot AI thông minh qua Telegram, Messenger, website. Trả lời khách hàng 24/7, tư vấn sản phẩm, chuyển tiếp nhân viên khi cần.",
 };
 
 const features = [
   {
-    title: "Chatbot 24/7 Khong Nghi",
+    title: "Chatbot 24/7 Không Nghỉ",
     description:
-      "Khach hang nhan tin luc 2h sang? AI tra loi ngay lap tuc. Khong bao gio bo lo tin nhan, khong bao gio de khach cho.",
+      "Khách hàng nhắn tin lúc 2h sáng? AI trả lời ngay lập tức. Không bao giờ bỏ lỡ tin nhắn, không bao giờ để khách chờ.",
   },
   {
-    title: "Hieu Ngu Canh Thong Minh",
+    title: "Hiểu Ngữ Cảnh Thông Minh",
     description:
-      "Khong phai chatbot tra loi may moc. AI hieu ngu canh cuoc hoi thoai, nho thong tin khach da cung cap, tra loi tu nhien nhu nguoi that.",
+      "Không phải chatbot trả lời máy móc. AI hiểu ngữ cảnh cuộc hội thoại, nhớ thông tin khách đã cung cấp, trả lời tự nhiên như người thật.",
   },
   {
-    title: "Tu Van San Pham",
+    title: "Tư Vấn Sản Phẩm",
     description:
-      "Khach hoi 'Co san pham nao phu hop voi...?' — AI hieu nhu cau va goi y san pham chinh xac tu catalog cua ban.",
+      "Khách hỏi 'Có sản phẩm nào phù hợp với...?' — AI hiểu nhu cầu và gợi ý sản phẩm chính xác từ catalog của bạn.",
   },
   {
-    title: "Chuyen Tiep Nhan Vien",
+    title: "Chuyển Tiếp Nhân Viên",
     description:
-      "Khi cau hoi phuc tap qua, AI tu dong chuyen cho nhan vien phu hop. Kem theo toan bo lich su hoi thoai de nhan vien khong can hoi lai.",
+      "Khi câu hỏi phức tạp quá, AI tự động chuyển cho nhân viên phù hợp. Kèm theo toàn bộ lịch sử hội thoại để nhân viên không cần hỏi lại.",
   },
   {
-    title: "Da Ngon Ngu",
+    title: "Đa Ngôn Ngữ",
     description:
-      "Ho tro tieng Viet, tieng Anh va tieng Trung. Tu dong nhan dien ngon ngu cua khach va tra loi bang ngon ngu do.",
+      "Hỗ trợ tiếng Việt, tiếng Anh và tiếng Trung. Tự động nhận diện ngôn ngữ của khách và trả lời bằng ngôn ngữ đó.",
   },
   {
-    title: "Hoc Lien Tuc",
+    title: "Học Liên Tục",
     description:
-      "AI hoc tu moi cuoc hoi thoai. Cau hoi nao hay gap, tra loi nao khach hai long — he thong tu toi uu de ngay cang chinh xac hon.",
+      "AI học từ mọi cuộc hội thoại. Câu hỏi nào hay gặp, trả lời nào khách hài lòng — hệ thống tự tối ưu để ngày càng chính xác hơn.",
   },
 ];
 
 const channels = [
-  { name: "Telegram Bot", description: "Tich hop truc tiep vao group hoac channel Telegram cua ban" },
-  { name: "Facebook Messenger", description: "Tu dong tra loi tin nhan tren Facebook Page" },
-  { name: "Website Widget", description: "Chat widget nhung vao website, khach hoi ngay tren trang" },
-  { name: "Zalo OA", description: "Tich hop Zalo Official Account cho khach hang Viet Nam" },
+  { name: "Telegram Bot", description: "Tích hợp trực tiếp vào group hoặc channel Telegram của bạn" },
+  { name: "Facebook Messenger", description: "Tự động trả lời tin nhắn trên Facebook Page" },
+  { name: "Website Widget", description: "Chat widget nhúng vào website, khách hỏi ngay trên trang" },
+  { name: "Zalo OA", description: "Tích hợp Zalo Official Account cho khách hàng Việt Nam" },
 ];
 
 export default function AIAssistantPage() {
@@ -55,16 +55,16 @@ export default function AIAssistantPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             tag="AI Assistant"
-            title="Tro Ly AI 24/7 Cho Doanh Nghiep"
-            description="Chatbot thong minh tra loi khach hang bat ky luc nao. Hieu ngu canh, nho lich su, tu van san pham — nhu mot nhan vien gioi nhat cua ban, nhung khong bao gio nghi."
+            title="Trợ Lý AI 24/7 Cho Doanh Nghiệp"
+            description="Chatbot thông minh trả lời khách hàng bất kỳ lúc nào. Hiểu ngữ cảnh, nhớ lịch sử, tư vấn sản phẩm — như một nhân viên giỏi nhất của bạn, nhưng không bao giờ nghỉ."
             light
           />
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
             <CTAButton href="/contact" variant="primary" size="lg">
-              Dang Ky Demo
+              Đăng Ký Demo
             </CTAButton>
             <CTAButton href="/pricing" variant="outline" size="lg">
-              Xem Bang Gia
+              Xem Bảng Giá
             </CTAButton>
           </div>
         </div>
@@ -73,8 +73,8 @@ export default function AIAssistantPage() {
       <section className="py-20 sm:py-28 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            tag="Tinh nang"
-            title="Chatbot AI Khong Chi Tra Loi — Ma Con Hieu"
+            tag="Tính năng"
+            title="Chatbot AI Không Chỉ Trả Lời — Mà Còn Hiểu"
           />
           <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {features.map((feature) => (
@@ -97,8 +97,8 @@ export default function AIAssistantPage() {
       <section className="py-20 sm:py-28 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            tag="Kenh ho tro"
-            title="Tiep Can Khach Hang O Moi Nen Tang"
+            tag="Kênh hỗ trợ"
+            title="Tiếp Cận Khách Hàng Ở Mọi Nền Tảng"
           />
           <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {channels.map((channel) => (
@@ -114,13 +114,13 @@ export default function AIAssistantPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Khach hang cua ban xung dang duoc tra loi ngay lap tuc
+            Khách hàng của bạn xứng đáng được trả lời ngay lập tức
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            Cai dat AI Assistant trong 1 tuan. Demo mien phi, khong rang buoc.
+            Cài đặt AI Assistant trong 1 tuần. Demo miễn phí, không ràng buộc.
           </p>
           <CTAButton href="/contact" variant="primary" size="lg">
-            Dang Ky Demo Mien Phi
+            Đăng Ký Demo Miễn Phí
           </CTAButton>
         </div>
       </section>

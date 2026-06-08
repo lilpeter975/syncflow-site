@@ -20,7 +20,7 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="/logos/logo-dark.png"
+            src="/logos/logo-light.png"
             alt="SyncFlow"
             width={120}
             height={32}
