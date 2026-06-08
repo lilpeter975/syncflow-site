@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
-const TG_TOKEN = "8736532690:AAGYbwa-p0G3MxmCreuZKLIOsqie2LMZ378";
-const TG_CHAT = "6436472173";
+const TG_TOKEN = process.env.TG_BOT_TOKEN || "";
+const TG_CHAT = process.env.TG_CHAT_ID || "";
 
 export async function POST(req: NextRequest) {
   const body = await req.json();
