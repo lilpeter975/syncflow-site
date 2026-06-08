@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 const showcases = [
   {
-    href: "/showcases/snapshop",
+    href: "/showcases/shopx",
     title: "ShopX",
     industry: "E-Commerce",
     location: "TP. Hồ Chí Minh",
@@ -25,7 +25,7 @@ const showcases = [
     services: ["E-Commerce Automation", "SEO Blog", "Reporting"],
   },
   {
-    href: "/showcases/wildlyplay",
+    href: "/showcases/mediahub",
     title: "MediaHub",
     industry: "Media & Content",
     location: "Online",
@@ -40,7 +40,7 @@ const showcases = [
     services: ["Social Media Automation", "AI Translation", "n8n Workflow"],
   },
   {
-    href: "/showcases/koban",
+    href: "/showcases/gamestudio",
     title: "GameStudio",
     industry: "Gaming Operations",
     location: "TP. Hồ Chí Minh",

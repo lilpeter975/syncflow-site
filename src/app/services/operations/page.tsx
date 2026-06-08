@@ -56,7 +56,7 @@ export default function OperationsPage() {
             <CTAButton href="/contact" variant="primary" size="lg">
               Đăng Ký Demo
             </CTAButton>
-            <CTAButton href="/showcases/koban" variant="outline" size="lg">
+            <CTAButton href="/showcases/gamestudio" variant="outline" size="lg">
               Xem Case Study
             </CTAButton>
           </div>

@@ -74,7 +74,7 @@ const services = [
 
 const showcases = [
   {
-    href: "/showcases/snapshop",
+    href: "/showcases/shopx",
     title: "ShopX",
     tag: "E-Commerce",
     result: "500+ keywords tracked, 19 SEO blogs, weekly auto-reports",
@@ -82,7 +82,7 @@ const showcases = [
       "Shop wellness TPHCM tự động hoá SEO và báo cáo doanh thu. Từ quản lý thủ công chuyển sang hệ thống tracking 500 từ khoá và báo cáo tự động mỗi tuần.",
   },
   {
-    href: "/showcases/wildlyplay",
+    href: "/showcases/mediahub",
     title: "MediaHub",
     tag: "Media",
     result: "Auto-post 3 ngôn ngữ, TG + FB + X",
@@ -90,7 +90,7 @@ const showcases = [
       "Kênh media World Cup 2026 tự động đăng bài đa kênh, đa ngôn ngữ. Workflow n8n xử lý dịch thuật và phân phối nội dung real-time.",
   },
   {
-    href: "/showcases/koban",
+    href: "/showcases/gamestudio",
     title: "GameStudio",
     tag: "Gaming Ops",
     result: "Auto meeting notes, Jira monitoring, config management",

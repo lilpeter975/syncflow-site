@@ -63,7 +63,7 @@ export default function SocialMediaPage() {
             <CTAButton href="/contact" variant="primary" size="lg">
               Đăng Ký Demo
             </CTAButton>
-            <CTAButton href="/showcases/wildlyplay" variant="outline" size="lg">
+            <CTAButton href="/showcases/mediahub" variant="outline" size="lg">
               Xem Case Study
             </CTAButton>
           </div>
