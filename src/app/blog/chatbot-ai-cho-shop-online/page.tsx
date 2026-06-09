@@ -28,7 +28,7 @@ export default function BlogPost() {
 
       <div className="bg-white pt-8">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <img src="https://iili.io/CqvXVoB.jpg" alt="Chatbot AI hỗ trợ shop online trả lời khách hàng 24/7 tự động" className="w-full rounded-2xl shadow-lg" loading="lazy" />
+          <img src="https://iili.io/Cq88Ghg.jpg" alt="Chatbot AI hỗ trợ shop online trả lời khách hàng 24/7 tự động" className="w-full rounded-2xl shadow-lg" loading="lazy" />
         </div>
       </div>
 
