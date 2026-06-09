@@ -19,13 +19,13 @@ const posts = [
     category: "Hướng Dẫn",
   },
   {
-    slug: "ai-tu-dong-hoa-cho-doanh-nghiep-nho",
-    title: "5 Quy Trình Đầu Tiên Nên Tự Động Hoá Trong Doanh Nghiệp Nhỏ",
+    slug: "chatbot-ai-cho-shop-online",
+    title: "Chatbot AI Cho Shop Online — Tại Sao Khách Hàng Đi Mất Khi Bạn Không Trả Lời?",
     excerpt:
-      "Không cần tự động hoá tất cả cùng một lúc. Bắt đầu từ 5 quy trình này để thấy kết quả nhanh nhất với chi phí thấp nhất.",
-    date: "2026-05-20",
+      "85% khách hàng không quay lại nếu tin nhắn không được trả lời trong 5 phút. Tìm hiểu cách chatbot AI giúp shop online giữ chân khách, tăng doanh thu 20%.",
+    date: "2026-06-08",
     readTime: "8 phút đọc",
-    category: "Chiến Lược",
+    category: "Chatbot AI",
   },
   {
     slug: "ai-tu-dong-hoa-cho-doanh-nghiep-nho",
