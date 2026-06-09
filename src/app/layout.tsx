@@ -47,6 +47,17 @@ export default function RootLayout({
       lang="vi"
       className={`${geistSans.variable} ${geistMono.variable} antialiased`}
     >
+      <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FK36JV89EV" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-FK36JV89EV');`,
+          }}
+        />
+      </head>
       <body className="min-h-screen flex flex-col bg-white text-gray-900">
         <Header />
         <main className="flex-1 pt-16">{children}</main>
