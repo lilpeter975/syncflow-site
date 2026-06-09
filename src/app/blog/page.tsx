@@ -29,6 +29,15 @@ const posts = [
   },
   {
     slug: "ai-tu-dong-hoa-cho-doanh-nghiep-nho",
+    title: "5 Quy Trình Đầu Tiên Nên Tự Động Hoá Trong Doanh Nghiệp Nhỏ",
+    excerpt:
+      "Không cần tự động hoá tất cả cùng một lúc. Bắt đầu từ 5 quy trình này để thấy kết quả nhanh nhất với chi phí thấp nhất.",
+    date: "2026-05-20",
+    readTime: "8 phút đọc",
+    category: "Chiến Lược",
+  },
+  {
+    slug: "ai-tu-dong-hoa-cho-doanh-nghiep-nho",
     title: "So Sánh n8n vs Zapier vs Make: Công Cụ Automation Nào Phù Hợp?",
     excerpt:
       "Phân tích chi tiết 3 nền tảng automation phổ biến nhất. Ưu nhược điểm, chi phí và trường hợp sử dụng tốt nhất cho doanh nghiệp Việt.",
