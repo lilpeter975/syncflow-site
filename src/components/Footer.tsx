@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+
 
 const footerLinks = {
   "Dịch Vụ": [
@@ -27,13 +27,10 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div>
-            <Image
-              src="/logos/logo-light.png"
-              alt="SyncFlow"
-              width={120}
-              height={32}
-              className="h-8 w-auto mb-4"
-            />
+            <span className="text-xl font-bold block mb-4">
+              <span className="text-white">Sync</span>
+              <span className="text-primary">Flow</span>
+            </span>
             <p className="text-sm leading-relaxed">
               Tự động hoá doanh nghiệp bằng AI. Giúp doanh nghiệp nhỏ Việt Nam tiết kiệm thời gian,
               giảm chi phí vận hành và tăng trưởng bền vững.

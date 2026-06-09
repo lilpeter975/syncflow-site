@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
+
 import { useState } from "react";
 
 const navItems = [
@@ -18,15 +18,9 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-dark-bg/90 backdrop-blur-md border-b border-dark-border">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
-        <Link href="/" className="flex items-center gap-2">
-          <Image
-            src="/logos/logo-light.png"
-            alt="SyncFlow"
-            width={120}
-            height={32}
-            className="h-8 w-auto"
-            priority
-          />
+        <Link href="/" className="flex items-center gap-2 text-xl font-bold">
+          <span className="text-white">Sync</span>
+          <span className="text-primary">Flow</span>
         </Link>
 
         <div className="hidden md:flex items-center gap-8">
