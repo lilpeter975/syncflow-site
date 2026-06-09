@@ -28,8 +28,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div>
             <span className="text-xl font-bold block mb-4">
-              <span className="text-white">Sync</span>
-              <span className="text-primary">Flow</span>
+              <span className="text-white">Sync</span><span className="text-primary">Flow</span>
             </span>
             <p className="text-sm leading-relaxed">
               Tự động hoá doanh nghiệp bằng AI. Giúp doanh nghiệp nhỏ Việt Nam tiết kiệm thời gian,
